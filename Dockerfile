@@ -7,7 +7,7 @@ RUN apt-get -y install wget unzip
 
 # OpenNote install command
 RUN rm -fr /app
-ADD https://github.com/l3iggs/OpenNote-builder/releases/download/now2/OpenNote.zip /app/
+ADD https://github.com/l3iggs/OpenNote-builder/releases/download/now2/OpenNote.zip /app/OpenNote.zip
 RUN unzip /app/OpenNote.zip -d /app
 
 # Clean up
